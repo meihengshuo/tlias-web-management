@@ -64,6 +64,7 @@
             <artifactId>jjwt</artifactId>
             <version>0.9.1</version>
         </dependency>
+
         <!--fastJSON-->
         <dependency>
             <groupId>com.alibaba</groupId>
