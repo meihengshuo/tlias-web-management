@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tlias
     username: root
-    password: 0000
+    password: "0000"
   #文件上传的配置
   servlet:
     multipart:
@@ -23,12 +23,3 @@ aliyun:
     accessKeyId: LTAI4GCH1vX6DKqJWxd6nEuW
     accessKeySecret: yBshYweHOpqDuhCArrVHwIiBKpyqSL
     bucketName: web-tlias
-
-111:
-  222:
-    333: 444555
-666:
-  777: 888
-
-  000
-  111
