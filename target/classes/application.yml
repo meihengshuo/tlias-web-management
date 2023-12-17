@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tlias
     username: root
-    password: "0000"
+    password: 0000
   #文件上传的配置
   servlet:
     multipart:
@@ -16,7 +16,7 @@ mybatis:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: true
 
-#阿里云OSS,不可用
+#阿里云OSS
 aliyun:
   oss:
     endpoint: https://oss-cn-hangzhou.aliyuncs.com
